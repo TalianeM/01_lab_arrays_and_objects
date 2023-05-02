@@ -28,9 +28,9 @@ stations.push("London Kings Cross");
 
 // console.log(stations);
 
-stations.shift();
+// stations.shift();
 
-console.log(stations);
+// console.log(stations);
 
 /**
  * Q3.
@@ -39,9 +39,9 @@ console.log(stations);
 
 // console.log("There are " + stationCount + " stations.");
 
-stationCount = stations.length;
+// stationCount = stations.length;
 
-console.log("There are " +  stationCount + " stations.");
+// console.log("There are " +  stationCount + " stations.");
 
 
 
@@ -50,9 +50,12 @@ console.log("There are " +  stationCount + " stations.");
  * Which station is the third stop?
  */
 
-// thirdStation = null;
 
-// console.log("The third station is " + thirdStation);
+
+thirdStation = stations.at(2)  
+                                              
+
+console.log("The third station is " + thirdStation);
 
 
 
