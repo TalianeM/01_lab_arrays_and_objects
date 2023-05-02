@@ -66,6 +66,9 @@ console.log("The third station is " + thirdStation);
 
 // console.log(stations);
 
+stations[2] = "Berwick-upon-Tweed";
+console.log(stations);
+
 
 
 /**
