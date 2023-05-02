@@ -4,9 +4,8 @@
 
 stations = ["Dundee", "Edinburgh", "North Berwick", "Newcastle", "York", "Leeds", "Doncaster", "Peterborough"];
 
-stations.push("London Kings Cross");
 
-console.log(stations);
+// console.log(stations);
 
 /**
  * Q1.
@@ -15,6 +14,7 @@ console.log(stations);
 
 // console.log(stations);
 
+stations.push("London Kings Cross");
 
 
 /**
@@ -24,14 +24,20 @@ console.log(stations);
 
 // console.log(stations);
 
+// delete stations[0];
 
+// console.log(stations);
+
+stations.shift();
+
+console.log(stations);
 
 /**
  * Q3.
  * How many stations are on the line?
  */
 
-stationCount = null;
+// stationCount = null;
 
 // console.log("There are " + stationCount + " stations.");
 
@@ -42,7 +48,7 @@ stationCount = null;
  * Which station is the third stop?
  */
 
-thirdStation = null;
+// thirdStation = null;
 
 // console.log("The third station is " + thirdStation);
 
@@ -80,7 +86,7 @@ thirdStation = null;
  * Is Durham one of the stops?
  */
 
-stoppingAtDurham = null;
+// stoppingAtDurham = null;
 
 // console.log(stoppingAtDurham);
 
